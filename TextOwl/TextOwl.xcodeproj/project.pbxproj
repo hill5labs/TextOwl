@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B36C26381ACB900600F2977F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C26371ACB900600F2977F /* AppDelegate.swift */; };
+		B36C263A1ACB900600F2977F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C26391ACB900600F2977F /* ViewController.swift */; };
+		B36C263D1ACB900600F2977F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B36C263B1ACB900600F2977F /* Main.storyboard */; };
+		B36C263F1ACB900600F2977F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B36C263E1ACB900600F2977F /* Images.xcassets */; };
+		B36C26421ACB900600F2977F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = B36C26401ACB900600F2977F /* LaunchScreen.xib */; };
+		B36C264E1ACB900600F2977F /* TextOwlTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36C264D1ACB900600F2977F /* TextOwlTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B36C26481ACB900600F2977F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B36C262A1ACB900600F2977F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B36C26311ACB900600F2977F;
+			remoteInfo = TextOwl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B36C26321ACB900600F2977F /* TextOwl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextOwl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36C26361ACB900600F2977F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36C26371ACB900600F2977F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B36C26391ACB900600F2977F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B36C263C1ACB900600F2977F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B36C263E1ACB900600F2977F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B36C26411ACB900600F2977F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		B36C26471ACB900600F2977F /* TextOwlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextOwlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B36C264C1ACB900600F2977F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36C264D1ACB900600F2977F /* TextOwlTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextOwlTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B36C262F1ACB900600F2977F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36C26441ACB900600F2977F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B36C26291ACB900600F2977F = {
+			isa = PBXGroup;
+			children = (
+				B36C26341ACB900600F2977F /* TextOwl */,
+				B36C264A1ACB900600F2977F /* TextOwlTests */,
+				B36C26331ACB900600F2977F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B36C26331ACB900600F2977F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B36C26321ACB900600F2977F /* TextOwl.app */,
+				B36C26471ACB900600F2977F /* TextOwlTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B36C26341ACB900600F2977F /* TextOwl */ = {
+			isa = PBXGroup;
+			children = (
+				B36C26371ACB900600F2977F /* AppDelegate.swift */,
+				B36C26391ACB900600F2977F /* ViewController.swift */,
+				B36C263B1ACB900600F2977F /* Main.storyboard */,
+				B36C263E1ACB900600F2977F /* Images.xcassets */,
+				B36C26401ACB900600F2977F /* LaunchScreen.xib */,
+				B36C26351ACB900600F2977F /* Supporting Files */,
+			);
+			path = TextOwl;
+			sourceTree = "<group>";
+		};
+		B36C26351ACB900600F2977F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B36C26361ACB900600F2977F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B36C264A1ACB900600F2977F /* TextOwlTests */ = {
+			isa = PBXGroup;
+			children = (
+				B36C264D1ACB900600F2977F /* TextOwlTests.swift */,
+				B36C264B1ACB900600F2977F /* Supporting Files */,
+			);
+			path = TextOwlTests;
+			sourceTree = "<group>";
+		};
+		B36C264B1ACB900600F2977F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B36C264C1ACB900600F2977F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B36C26311ACB900600F2977F /* TextOwl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36C26511ACB900600F2977F /* Build configuration list for PBXNativeTarget "TextOwl" */;
+			buildPhases = (
+				B36C262E1ACB900600F2977F /* Sources */,
+				B36C262F1ACB900600F2977F /* Frameworks */,
+				B36C26301ACB900600F2977F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextOwl;
+			productName = TextOwl;
+			productReference = B36C26321ACB900600F2977F /* TextOwl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B36C26461ACB900600F2977F /* TextOwlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B36C26541ACB900600F2977F /* Build configuration list for PBXNativeTarget "TextOwlTests" */;
+			buildPhases = (
+				B36C26431ACB900600F2977F /* Sources */,
+				B36C26441ACB900600F2977F /* Frameworks */,
+				B36C26451ACB900600F2977F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B36C26491ACB900600F2977F /* PBXTargetDependency */,
+			);
+			name = TextOwlTests;
+			productName = TextOwlTests;
+			productReference = B36C26471ACB900600F2977F /* TextOwlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B36C262A1ACB900600F2977F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Hill 5 Labs";
+				TargetAttributes = {
+					B36C26311ACB900600F2977F = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					B36C26461ACB900600F2977F = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = B36C26311ACB900600F2977F;
+					};
+				};
+			};
+			buildConfigurationList = B36C262D1ACB900600F2977F /* Build configuration list for PBXProject "TextOwl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B36C26291ACB900600F2977F;
+			productRefGroup = B36C26331ACB900600F2977F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B36C26311ACB900600F2977F /* TextOwl */,
+				B36C26461ACB900600F2977F /* TextOwlTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B36C26301ACB900600F2977F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36C263D1ACB900600F2977F /* Main.storyboard in Resources */,
+				B36C26421ACB900600F2977F /* LaunchScreen.xib in Resources */,
+				B36C263F1ACB900600F2977F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36C26451ACB900600F2977F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B36C262E1ACB900600F2977F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36C263A1ACB900600F2977F /* ViewController.swift in Sources */,
+				B36C26381ACB900600F2977F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B36C26431ACB900600F2977F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B36C264E1ACB900600F2977F /* TextOwlTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B36C26491ACB900600F2977F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B36C26311ACB900600F2977F /* TextOwl */;
+			targetProxy = B36C26481ACB900600F2977F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B36C263B1ACB900600F2977F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36C263C1ACB900600F2977F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B36C26401ACB900600F2977F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B36C26411ACB900600F2977F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B36C264F1ACB900600F2977F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		B36C26501ACB900600F2977F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B36C26521ACB900600F2977F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextOwl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B36C26531ACB900600F2977F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TextOwl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B36C26551ACB900600F2977F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TextOwlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextOwl.app/TextOwl";
+			};
+			name = Debug;
+		};
+		B36C26561ACB900600F2977F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TextOwlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextOwl.app/TextOwl";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B36C262D1ACB900600F2977F /* Build configuration list for PBXProject "TextOwl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36C264F1ACB900600F2977F /* Debug */,
+				B36C26501ACB900600F2977F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B36C26511ACB900600F2977F /* Build configuration list for PBXNativeTarget "TextOwl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36C26521ACB900600F2977F /* Debug */,
+				B36C26531ACB900600F2977F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B36C26541ACB900600F2977F /* Build configuration list for PBXNativeTarget "TextOwlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B36C26551ACB900600F2977F /* Debug */,
+				B36C26561ACB900600F2977F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B36C262A1ACB900600F2977F /* Project object */;
+}
